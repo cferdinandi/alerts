@@ -5,7 +5,7 @@ Simple alert messages.
 Getting started with Alerts is really easy. [View the online tutorial](http://cferdinandi.github.com/alerts/) or dig through the `index.html` file.
 
 ## Changelog
-* 5/18/2013
+* v1.0 (May 18, 2013)
   * Initial release.
 
 ## License
