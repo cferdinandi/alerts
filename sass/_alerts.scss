@@ -1,0 +1,37 @@
+/* =============================================================
+
+	Alerts v2.0
+	Simple alert messages by Chris Ferdinandi
+	http://gomakethings.com
+
+	Free to use under the MIT License.
+	http://gomakethings.com/mit/
+
+ * ============================================================= */
+
+.alert {
+	color: darken( $color-primary, 15% );
+	background-color: mix( white, $color-primary, 80% );
+	border: calc-em(1px) solid mix( white, $color-primary, 65% );
+	margin-bottom: $spacing;
+	padding: calc-em(4px) calc-em(8px);
+	border-radius: calc-em(1px);
+}
+
+.alert-success {
+	color: darken( $color-success, 15% );
+	background-color: mix( white, $color-success, 80% );
+	border-color: mix( white, $color-success, 65% );
+}
+
+.alert-danger {
+	color: darken( $color-danger, 15% );
+	background-color: mix( white, $color-danger, 80% );
+	border-color: mix( white, $color-danger, 65% );
+}
+
+.alert-warning {
+	color: darken( $color-warning, 25% );
+	background-color: mix( white, $color-warning, 80% );
+	border-color: mix( white, $color-warning, 65% );
+}

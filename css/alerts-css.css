@@ -1,0 +1,36 @@
+/* =============================================================
+
+	Alerts v2.0
+	Simple alert messages by Chris Ferdinandi
+	http://gomakethings.com
+
+	Free to use under the MIT License.
+	http://gomakethings.com/mit/
+
+ * ============================================================= */
+.alert {
+  color: #005580;
+  background-color: #cce7f4;
+  border: 0.0725em solid #a5d5ed;
+  margin-bottom: 1.5625em;
+  padding: 0.25em 0.5em;
+  border-radius: 0.0725em;
+}
+
+.alert-success {
+  color: #1f481c;
+  background-color: #d7e5d5;
+  border-color: #b9d2b6;
+}
+
+.alert-danger {
+  color: #43070a;
+  background-color: #e7ced0;
+  border-color: #d5aaac;
+}
+
+.alert-warning {
+  color: #614a04;
+  background-color: #f7edcd;
+  border-color: #f2e0a8;
+}
