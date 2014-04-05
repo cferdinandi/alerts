@@ -1,5 +1,7 @@
 # Alerts
-Simple alert messages. [View the demo](http://cferdinandi.github.io/alerts/).
+Simple alert messages.
+
+[Download Alerts 2](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/).
 
 **In This Documentation**
 
