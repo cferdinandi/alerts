@@ -1,4 +1,4 @@
-# Alerts
+# Alerts [![Build Status](https://travis-ci.org/cferdinandi/alerts.svg)](https://travis-ci.org/cferdinandi/alerts)
 Simple alert messages.
 
 [Download Alerts 2](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/).
@@ -15,10 +15,12 @@ Simple alert messages.
 
 ## Getting Started
 
+Compiled and production-ready code can be found in the `dist` directory. The `src` directory contains development code.
+
 ### 1. Include Alerts on your site.
 
 ```html
-<link rel="stylesheet" href="css/alerts-css.css">
+<link rel="stylesheet" href="dist/css/alerts.css">
 ```
 
 Alerts is [built with Sass](http://sass-lang.com/) for easy customization. If you don't use Sass, that's ok. The `css` folder contains compiled vanilla CSS.
@@ -60,6 +62,11 @@ Alerts is licensed under the [MIT License](http://gomakethings.com/mit/).
 
 ## Changelog
 
+* v2.1.0 - June 23, 2014
+	* Converted to gulp.js workflow.
+	* Updated naming conventions.
+	* Added minified versions of files.
+	* Updated to three number versioning system.
 * v2.0 - December 2, 2013
 	* Added Sass support.
 	* Broke old namespacing. Moved from color-based names to action-based names.
