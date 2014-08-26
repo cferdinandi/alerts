@@ -1,7 +1,7 @@
 # Alerts [![Build Status](https://travis-ci.org/cferdinandi/alerts.svg)](https://travis-ci.org/cferdinandi/alerts)
 Simple alert messages.
 
-[Download Alerts 2](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/).
+[Download Alerts](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/).
 
 **In This Documentation**
 
@@ -64,6 +64,8 @@ Alerts is licensed under the [MIT License](http://gomakethings.com/mit/).
 
 Alerts uses [semantic versioning](http://semver.org/).
 
+* v2.2.0 - August 25, 2014
+	* Switched from Sass Lib to Ruby Sass.
 * v2.1.0 - June 23, 2014
 	* Converted to gulp.js workflow.
 	* Updated naming conventions.
