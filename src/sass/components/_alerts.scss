@@ -1,7 +1,7 @@
 .alert {
-	color: darken( $color-primary, 15% );
-	background-color: mix( white, $color-primary, 80% );
-	border: calc-em(1px) solid mix( white, $color-primary, 65% );
+	color: darken( $color-info, 15% );
+	background-color: mix( white, $color-info, 80% );
+	border: calc-em(1px) solid mix( white, $color-info, 65% );
 	margin-bottom: $spacing;
 	padding: calc-em(4px) calc-em(8px);
 	border-radius: calc-em(1px);
