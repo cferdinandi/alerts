@@ -1,16 +1,7 @@
 # Alerts [![Build Status](https://travis-ci.org/cferdinandi/alerts.svg)](https://travis-ci.org/cferdinandi/alerts)
 Simple alert messages.
 
-[Download Alerts](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/).
-
-**In This Documentation**
-
-1. [Getting Started](#getting-started)
-2. [Installing with Package Managers](#installing-with-package-managers)
-3. [Working with the Source Files](#working-with-the-source-files)
-4. [Browser Compatibility](#browser-compatibility)
-5. [How to Contribute](#how-to-contribute)
-6. [License](#license)
+[Download Alerts](https://github.com/cferdinandi/alerts/archive/master.zip) / [View the demo](http://cferdinandi.github.io/alerts/)
 
 
 
@@ -23,10 +14,6 @@ Compiled and production-ready code can be found in the `dist` directory. The `sr
 ```html
 <link rel="stylesheet" href="dist/css/alerts.css">
 ```
-
-Alerts is [built with Sass](http://sass-lang.com/) for easy customization. If you don't use Sass, that's ok. The `css` folder contains compiled vanilla CSS.
-
-The `_config.scss` and `_mixins.scss` files are the same ones used in [Kraken](http://cferdinandi.github.io/kraken/), so you can drop the `_alerts.css` file right into Kraken without making any updates. Or, adjust the variables to suit your own project.
 
 ### 2. Add the markup to your HTML.
 
@@ -47,9 +34,9 @@ And that's it, you're done. Nice work!
 
 You can install Alerts with your favorite package manager.
 
-* **[NPM](https://www.npmjs.org/):** `npm install cferdinandi/alerts`
-* **[Bower](http://bower.io/):** `bower install https://github.com/cferdinandi/alerts.git`
-* **[Component](http://component.io/):** `component install cferdinandi/alerts`
+* **NPM:** `npm install cferdinandi/alerts`
+* **Bower:** `bower install https://github.com/cferdinandi/alerts.git`
+* **Component:** `component install cferdinandi/alerts`
 
 
 
