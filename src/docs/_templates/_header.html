@@ -8,12 +8,30 @@
 
 		<!-- stylesheets -->
 		<link rel="stylesheet" href="dist/css/alerts.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+		<style type="text/css">
+			/* Add box sizing to everything
+			 * http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+			*,
+			*:before,
+			*:after {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+			/*  Sets body width */
+			body {
+				max-width: 40em;
+				width: 88%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		</style>
 	</head>
 
 	<body>
 
-		<main class="container">
+		<main>
 
 			<nav>
 				<h1>Alerts</h1>

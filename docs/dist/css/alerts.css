@@ -1,39 +1,37 @@
-/**
- * Alerts v2.3.0
- * Simple alert messages, by Chris Ferdinandi.
+/*!
+ * Alerts v2.3.0: Simple alert messages
+ * (c) 2015 Chris Ferdinandi
+ * MIT License
  * http://github.com/cferdinandi/alerts
- * 
- * Free to use under the MIT License.
- * http://gomakethings.com/mit/
  */
 
-/* line 1, ../components/_alerts.scss */
+/* line 1, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
 .alert {
   color: #005580;
-  background-color: #cce7f4;
-  border: 0.0725em solid #a5d5ed;
+  background-color: #cce7f5;
+  border: 0.0725em solid #a6d5ed;
   margin-bottom: 1.5625em;
   padding: 0.25em 0.5em;
   border-radius: 0.0725em;
 }
 
-/* line 10, ../components/_alerts.scss */
+/* line 10, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
 .alert-success {
   color: #1f481c;
-  background-color: #d7e5d5;
-  border-color: #b9d2b6;
+  background-color: #d7e5d6;
+  border-color: #b9d2b7;
 }
 
-/* line 16, ../components/_alerts.scss */
+/* line 16, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
 .alert-danger {
   color: #43070a;
-  background-color: #e7ced0;
-  border-color: #d5aaac;
+  background-color: #e7cfd0;
+  border-color: #d5abad;
 }
 
-/* line 22, ../components/_alerts.scss */
+/* line 22, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
 .alert-warning {
   color: #614a04;
-  background-color: #f7edcd;
-  border-color: #f2e0a8;
+  background-color: #f8eece;
+  border-color: #f2e1a9;
 }
