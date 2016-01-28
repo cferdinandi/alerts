@@ -1,6 +1,6 @@
 /*!
- * Alerts v2.3.0: Simple alert messages
- * (c) 2015 Chris Ferdinandi
+ * Alerts v2.4.0: Simple alert messages
+ * (c) 2016 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/alerts
  */
@@ -34,4 +34,18 @@
   color: #614a04;
   background-color: #f8eece;
   border-color: #f2e1a9;
+}
+
+/* line 28, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
+.alert-dismiss {
+  cursor: pointer;
+  display: none;
+  float: right;
+  visibility: hidden;
+}
+
+/* line 34, /Users/cferdinandi/Sites/alerts/src/sass/components/_alerts.scss */
+.js-alerts .alert-dismiss {
+  display: inline-block;
+  visibility: visible;
 }
