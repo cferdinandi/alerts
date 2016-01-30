@@ -1,7 +1,2 @@
-/*! Alerts v2.3.0 | (c) 2015 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/alerts */
-/*!
- * Alerts v2.3.0: Simple alert messages
- * (c) 2015 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/alerts
- */.alert{color:#005580;background-color:#cce7f5;border:.0725em solid #a6d5ed;margin-bottom:1.5625em;padding:.25em .5em;border-radius:.0725em}.alert-success{color:#1f481c;background-color:#d7e5d6;border-color:#b9d2b7}.alert-danger{color:#43070a;background-color:#e7cfd0;border-color:#d5abad}.alert-warning{color:#614a04;background-color:#f8eece;border-color:#f2e1a9}
+/*! Alerts v2.4.0 | (c) 2016 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/alerts */
+.alert{color:#005580;background-color:#cce7f5;border:.0725em solid #a6d5ed;margin-bottom:1.5625em;padding:.25em .5em;border-radius:.0725em}.alert-success{color:#1f481c;background-color:#d7e5d6;border-color:#b9d2b7}.alert-danger{color:#43070a;background-color:#e7cfd0;border-color:#d5abad}.alert-warning{color:#614a04;background-color:#f8eece;border-color:#f2e1a9}.alert-dismiss{cursor:pointer;display:none;float:right;visibility:hidden}.js-alerts .alert-dismiss{display:inline-block;visibility:visible}

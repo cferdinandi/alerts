@@ -24,3 +24,15 @@
 	background-color: mix( white, $color-warning, 80% );
 	border-color: mix( white, $color-warning, 65% );
 }
+
+.alert-dismiss {
+	cursor: pointer;
+	display: none;
+	float: right;
+	visibility: hidden;
+
+	.js-alerts & {
+		display: inline-block;
+		visibility: visible;
+	}
+}
