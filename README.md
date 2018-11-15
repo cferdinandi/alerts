@@ -29,7 +29,7 @@ Create an alert by adding the `.alert` class to a `<div>` element. Add optional 
 <div class="alert alert-warning">...</div>
 ```
 
-For dismissable alerts, also add an element with the `.alert-dismiss` class and `[data-alert-dismiss]` attribute. By default, dismissed alerts remain in the DOM but are hidden. To remove them entirely give `[data-alert-dmiss]` a value of `remove`.
+For dismissable alerts, also add an element with the `.alert-dismiss` class and `[data-alert-dismiss]` attribute. By default, dismissed alerts remain in the DOM but are hidden. To remove them entirely give `[data-alert-dismiss]` a value of `remove`.
 
 ```html
 <div class="alert">
